@@ -1,0 +1,32 @@
+body {
+
+}
+  h1{
+    border-style: solid;
+    border-width: 4px
+    border-left-width:10px
+    border-right-width:10px;
+    border-color:pink;
+    color:teal
+    color: purple;
+    text-align: center;
+
+  }
+  .dogfacts {
+    font-size: 1.5em;
+    background-color: #FF6650;
+    margin:20px
+    padding:20px;
+    color: white;
+  }
+
+@media only screen and (max-width: 600px) {
+  body{
+     background: purple;
+   }
+   .dogcolumn img {
+     width:100%;
+     }
+   }
+
+}
